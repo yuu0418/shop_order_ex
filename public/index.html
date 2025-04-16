@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            注文フォーム
+        </title>
+        <style>
+            body {
+              font-family: sans-serif;
+              padding: 2em;
+              background-color: #ffd86d;
+            }
+            form {
+              background: white;
+              padding: 2em;
+              border-radius: 10px;
+              max-width: 300px;
+              margin: auto;
+              box-shadow: 0 2px 8px rgba(0, 0, 0, 0.123);
+            }
+            input, button {
+              padding: 0.5em;
+              margin-top: 0.5em;
+              width: 100%;
+              box-sizing: border-box;
+            }
+
+            #response {
+              margin-top: 1em;
+              color: green;
+            }
+          </style>
+    </head>
+
+    <body>
+        <form id="orderForm">
+            <h2>メニュー</h2>
+            <label>
+              名前：
+              <input type="text" id="name" required>
+            </label>
+            <label>
+              注文内容：
+              <input type="text" id="item" required>
+            </label>
+            <button type="submit">注文する</button>
+            <div id="response"></div>
+          </form>
+
+          
+    </body>
+
+</html>
