@@ -1,25 +1,25 @@
 
-    body {
-      font-family: sans-serif;
-      padding: 2em;
-      background-color: #ffd86d;
-    }
-    form {
-      background: white;
-      padding: 2em;
-      border-radius: 10px;
-      max-width: 300px;
-      margin: auto;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.123);
-    }
-    input, button {
-      padding: 0.5em;
-      margin-top: 0.5em;
-      width: 100%;
-      box-sizing: border-box;
-    }
+body {
+  font-family: sans-serif;
+  padding: 2em;
+  background-color: #ffd86d;
+}
+form {
+  background: white;
+  padding: 2em;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.123);
+}
+input, button {
+  padding: 0.5em;
+  margin-top: 0.5em;
+  width: 100%;
+  box-sizing: border-box;
+}
 
-    #response {
-      margin-top: 1em;
-      color: green;
-    }
+#response {
+  margin-top: 1em;
+  color: green;
+}
