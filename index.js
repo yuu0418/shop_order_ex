@@ -10,6 +10,13 @@ app.use(express.static('public'));
 
 app.use(express.json()); // JSONデータを受け取れるようにする
 
+
+// ログを出す共通ミドルウェア
+app.use((req, res, next) => {
+  console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+  next();
+});
+
 // 注文受付エンドポイント
 app.post('/order', (req, res) => {
   const order = req.body;
