@@ -1,6 +1,7 @@
 # 🧾 注文受付システム
 
-Node.js、PM2、nginx、AWSを使って構築した注文受付用のWebシステム
+Node.js、PM2、nginx、AWSを使って構築した注文受付用の
+Webシステム
 
 ## 🌐 概要
 
