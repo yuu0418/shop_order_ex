@@ -21,9 +21,9 @@ Node.js、PM2、nginx、AWSを使って構築した注文受付用のWebシス�
 
 ## 🔧 構成図
 [ユーザーのブラウザ]<br>
-        ↓ HTTPアクセス（ポート80)<br>　
+            ↓ HTTPアクセス（ポート80)<br>　
     [nginx（リバースプロキシ）]<br>　
-        ↓ フォワード（localhost:3000）<br>　　
-     [Node.js（Expressサーバー）]<br>
-             ↓<br>
-  [注文処理 / ログ出力 / レスポンス返す]<br>
+            ↓ フォワード（localhost:3000）<br>　　
+         [Node.js（Expressサーバー）]<br>
+                 ↓<br>
+      [注文処理 / ログ出力 / レスポンス返す]<br>
