@@ -1,6 +1,6 @@
 # 🧾 注文受付システム
 
-Node.js、PM2、nginx、AWSを使って構築した注文受付用のWebシステムです
+Node.js、PM2、nginx、AWSを使って構築した注文受付用のWebシステム
 
 ## 🌐 概要
 
@@ -20,4 +20,11 @@ Node.js、PM2、nginx、AWSを使って構築した注文受付用のWebシス�
 - HTML / CSS / JavaScript (フロント)
 
 ## 🔧 構成図
+[ユーザーのブラウザ]
+        ↓ HTTPアクセス（ポート80）
+    [nginx（リバースプロキシ）]
+        ↓ フォワード（localhost:3000）
+     [Node.js（Expressサーバー）]
+        ↓
+  [注文処理 / ログ出力 / レスポンス返す]
 
