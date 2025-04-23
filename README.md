@@ -8,7 +8,9 @@ Node.js、PM2、nginx、AWSを使って構築した注文受付用のWebシス�
 - Express を使って注文データを POST で受け取り
 - PM2 でプロセス管理・常駐化
 - nginx を使ってリバースプロキシ設定・ポートフォワード・セキュリティ向上
-- AWS（EC2）上で稼働し、全世界からアクセス可能（現在 HTTP のみ）
+- AWS（EC2）上で稼働し、全世界からアクセス可能
+- 独自ドメイン取得 yu0824.com
+- Let’s Encryptを使用しHTTPS化
 
 ## 📦 使用技術
 
@@ -21,7 +23,7 @@ Node.js、PM2、nginx、AWSを使って構築した注文受付用のWebシス�
 
 ## 🔧 構成図
 [ユーザーのブラウザ]<br>
-↓ HTTPアクセス（ポート80)<br>　
+↓ HTTPSアクセス（ポート443)<br>　
 [nginx（リバースプロキシ）]<br>　
 ↓ フォワード（localhost:3000）<br>　　
 [Node.js（Expressサーバー）]<br>
