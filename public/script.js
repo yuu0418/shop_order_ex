@@ -11,7 +11,7 @@ document.getElementById('orderForm').addEventListener('submit', async function(e
   };
         
   try {
-    const res = await fetch('https://09b9-2400-4153-b21-c00-4c2-d066-da91-7c6b.ngrok-free.app/order', {
+    const res = await fetch('/order', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
