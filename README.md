@@ -29,3 +29,5 @@ Node.js、PM2、nginx、AWSを使って構築した注文受付用のWebシス�
 [Node.js（Expressサーバー）]<br>
 ↓<br>
 [注文処理 / ログ出力 / レスポンス返す]<br>
+
+CICD_test
